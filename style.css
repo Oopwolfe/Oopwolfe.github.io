@@ -1,0 +1,115 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    margin-left: 20px;
+    height: 40px;
+    width: auto;
+}
+
+.menu-items {
+    margin-right: 20px;
+}
+a.Menu{
+    
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+a.Menu:hover{
+    color:orange;
+    background: grey;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    margin: 0; 
+    padding: 0; 
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+div#profile{
+
+    padding: 50px;
+    width:250px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+
+div#profileBckgrd{
+    background: #3cb371;
+    width: 700;
+ 
+}
+
+
+div#bio{
+    padding:100px;
+    width:500px;
+    display: inline-block;
+    
+}
+
+div#worksBckgrd{
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 20px;
+    background: grey;
+    width: 700;
+    
+    
+}
+h1#portTitle{
+    
+    padding-left: 45%;
+}
+
+div#aboutMe_Bckgrd{
+    background: black;
+    
+}
+
+div#about_profile{
+    padding: 50px;
+    width:250px;
+    display: inline-block;
+    margin-left: 200px;
+    
+}
+
+div#aboutme_bio{
+    padding:100px;
+    width:500px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
